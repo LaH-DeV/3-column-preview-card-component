@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution { margin-top: 2%; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    margin-top: 30px;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    margin-top: 75px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    border-radius: 25px;
+    padding: 15px 30px;
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+.content {
+    padding: 15%;
+}
+
+
+
+section {
+    background-color:  hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1440px;
+    height: 768px;
+}
+
+.container {
+    width: 62%;
+    display: flex;
+    height: 62%;
+}
+
+.card:nth-of-type(1){
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.card:nth-of-type(1) button {
+    color: hsl(31, 77%, 52%);
+}
+
+.card:nth-of-type(2) {
+    background-color: hsl(184, 100%, 22%);
+}
+.card:nth-of-type(2) button {
+    color: hsl(184, 100%, 22%);
+}
+
+.card:nth-of-type(3){
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.card:nth-of-type(3) button {
+    color: hsl(179, 100%, 13%);
+}
+
+.card button:hover {
+    background-color: transparent;
+    color:  hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+h1 {
+    color:  hsl(0, 0%, 95%);
+}
+
+
+
+
+
+@media screen and (max-width: 860px) {
+   
+    section {
+        background-color:  hsl(0, 0%, 95%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 375px;
+        padding: 20% 0;
+        height: auto;
+    }
+    
+    .container {
+        flex-direction: column;
+        width: 90%;
+    }
+    button {
+        margin-top: 30px;
+    }
+
+
+
+
+
+    .card:nth-of-type(1) {
+        background-color: hsl(31, 77%, 52%);
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .card:nth-of-type(2) {
+        background-color: hsl(184, 100%, 22%);
+    }
+   
+    .card:nth-of-type(3) {
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+   
+}
