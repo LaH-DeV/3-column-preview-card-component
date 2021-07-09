@@ -43,4 +43,3 @@ Users should be able to:
 ## Author
 
 - Website - [Przemysław Dylewski - Lah.Dev](https://lah-dev.netlify.app)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
